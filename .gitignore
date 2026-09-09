@@ -1,0 +1,36 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Data — regenerate by running the notebook
+data/
+*.csv
+*.pkl
+*.parquet
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Credentials — never commit
+.env
+.env.*
+*secret*
+*credential*
+config.local.*
